@@ -1,17 +1,4 @@
 body {
-            /*padding:0px;
-	margin: 0px 0px 0px 0px;*/
-            FONT-SIZE: 12pt;
-            FONT-FAMILY: Arial, Helvetica, sans-serif;
-        }
-
-        div#xatstyme {
-            background: #0;
-            color: #00;
-            overflow: auto;
-        }
-
-        body {
             background:
         }
 
@@ -248,9 +235,7 @@ body {
             display: inline-block
         }
 
-        #hoverbox:before,
-        #hoverbox:hover:before,
-        #imagebox:before,
+                #imagebox:before,
         #quotebox:before {
             content: ''
         }
@@ -285,6 +270,7 @@ body {
         }
 
         #navbar {
+			top:890px; 
             user-select: none;
             font-family: Comfortaa, cursive;
             position: relative;
@@ -344,13 +330,15 @@ body {
             font-size: 16px
         }
 
-        #hoverbox:hover #dropdown {
+        #hoverbox:hover #dropdown {			
+			top:750px;
             opacity: 1;
             z-index: 3;
             transition: all ease-in-out .3s
         }
 
         #dropdown {
+			top:750px;
             -webkit-user-select: none;
             user-select: none;
             font-family: Arial;
@@ -361,7 +349,7 @@ body {
         }
 
         #hoverbox,
-        #hoverhitbox {
+        #hoverhitbox {			
             height: 80px;
             width: 200px
         }
@@ -369,6 +357,7 @@ body {
         #hoverbox,
         #hoverbox:before,
         #hoverhitbox {
+			
             position: absolute;
             right: 0
         }
